@@ -1,0 +1,15 @@
+class apiRespones{
+    constructor(
+        statusCode,
+        data,
+        message="Success",
+
+    ){
+        this.statusCode = statusCode,
+        this.data = data,
+        this.success = statusCode
+        this.message = message
+    }
+}
+
+export {apiRespones}
